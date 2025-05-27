@@ -50,8 +50,8 @@ Spotlight is an AI-powered webinar platform designed to help marketers and busin
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/spotlight.git
-cd spotlight
+git clone https://github.com/TuShArBhArDwA/Spotlight.git
+cd Spotlight
 ```
 
 # Install dependencies
