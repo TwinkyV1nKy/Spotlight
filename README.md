@@ -54,12 +54,12 @@ git clone https://github.com/TuShArBhArDwA/Spotlight.git
 cd Spotlight
 ```
 
-# Install dependencies
+### Install dependencies
 ```
 npm install
 ```
 
-# Start the dev server
+### Start the dev server
 ```
 npm run dev
 ```
