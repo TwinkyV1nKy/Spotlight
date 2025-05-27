@@ -33,7 +33,7 @@ Spotlight is an AI-powered webinar platform designed to help marketers and busin
 ---
 
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15, TailwindCSS, Shadcn UI  
 - **Backend**: Node.js, Express  
@@ -46,7 +46,7 @@ Spotlight is an AI-powered webinar platform designed to help marketers and busin
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
