@@ -1,6 +1,12 @@
 # 🔦 Spotlight – AI Powered Webinar Streaming & Sales Platform
 
-Spotlight is an AI-powered webinar platform designed to help marketers and business owners go beyond just hosting presentations. With interactive CTAs, breakout rooms, and AI sales agents, Spotlight turns your webinars into real-time lead converters.
+Spotlight is an AI powered webinar streaming platform for marketers and business owners. Users can create webinars, show popup screens to attendees to book a call or buy a product during the livestream, track lead sales and sales progress and more.
+
+The "book a call" CTA works best for high ticket services / or courses! The host can create breakout rooms for interested prospects and the AI sales agent can speak to leads and even close leads with the product link.
+
+This AI sales agent can be trained and customized as per your liking.
+
+Hosts can also track the progress of their leads in their sales cycle, and follow up with them to push a sale.
 
 ---
 
@@ -20,15 +26,24 @@ Spotlight is an AI-powered webinar platform designed to help marketers and busin
 
 ## Features
 
-- 🎥 Live Webinars with OBS/WebRTC support  
-- 🛒 In-stream CTAs to sell products or book calls  
-- 🧠 AI Sales Agents to engage and close leads  
-- 🔀 Breakout Rooms for one-on-one AI conversations  
-- 📊 Lead Tracking & Sales Pipelines  
-- 🧩 Customizable AI Agent Behavior  
-- 💰 Stripe Payment Integration  
-- 🌓 Minimal & Beautiful Dark UI  
-- 📼 Access to Webinar Recordings (Upcoming)
+- 🎥 Live streaming Webinars
+- 🔁 Create unlimited streams
+- 🎛️ Stream through OBS for full customization or camera
+- 💳 Connect Stripe product
+- 🛒 Sell products on the webinar through CTAs
+- 🤖 Create AI agents
+- 📈 Webinar signup funnel to get leads
+- 🧩 Lead tracking and pipelines
+- 🧠🔀 Add AI agents to break out rooms
+- 🗣️🤝 AI agents can role play as setters / sales reps and more
+- 🤖✅ Close leads on auto pilot with AI agents
+- 📼 Access previous recordings of webinars *
+- 💸 Single line Stripe payment component
+- 💰 Accept payments from customers
+- 🚀 Production grade deployment on custom VPS
+- 🐳 Docker file for npm & bun
+- 📤 Resend sending emails
+- 🧩 Beautiful Minimal dark mode UI
 
 ---
 
