@@ -51,13 +51,12 @@ Hosts can also track the progress of their leads in their sales cycle, and follo
 ## Tech Stack
 
 - **Frontend**: Next.js 15, TailwindCSS, Shadcn UI  
-- **Backend**: Node.js, Express  
-- **Database**: PostgreSQL + Prisma  
-- **Authentication**: Clerk  
-- **AI Agents**: OpenAI GPT-4 + Pinecone  
-- **Payments**: Stripe  
-- **Deployment**: Docker, Railway/Vercel  
-- **Emailing**: Resend  
+- **Backend**: Node.js, Express
+- **AI**: Vapi AI for AI agents, CoPilot (voice agent logic), Pinecone for vector storage
+- **Auth**: Clerk
+- **Database**: PostgreSQL via Neon, ORM with Prisma
+- **Payments**: Stripe (with waitlist and one-click checkout)
+- **Streaming**: OBS/WebRTC integration, Stream SDK for video sessions
 
 ---
 
