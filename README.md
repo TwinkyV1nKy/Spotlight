@@ -27,8 +27,7 @@ Hosts can also track the progress of their leads in their sales cycle, and follo
 
 ## Demo
 
-👉 [Click here to watch the demo video](https://github.com/TuShArBhArDwA/Spotlight/raw/main/demo.mp4)
-
+https://github.com/user-attachments/assets/fc958cd5-d652-4a0c-ab66-b19348303c0a
 
 
 ---
