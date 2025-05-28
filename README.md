@@ -13,6 +13,7 @@ Hosts can also track the progress of their leads in their sales cycle, and follo
 
 ## Table of Contents
 
+- [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -21,6 +22,15 @@ Hosts can also track the progress of their leads in their sales cycle, and follo
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+---
+
+## Demo
+
+<video src="public/demo.mp4" controls width="100%" style="border-radius: 12px;">
+  Your browser does not support the video tag.
+</video>
+
 
 ---
 
