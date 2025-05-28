@@ -27,9 +27,8 @@ Hosts can also track the progress of their leads in their sales cycle, and follo
 
 ## Demo
 
-<video src="demo.mp4" controls width="100%" style="border-radius: 12px;">
-  Your browser does not support the video tag.
-</video>
+👉 [Click here to watch the demo video](https://github.com/TuShArBhArDwA/Spotlight/raw/main/demo.mp4)
+
 
 
 ---
