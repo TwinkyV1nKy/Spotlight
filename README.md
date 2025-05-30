@@ -1,4 +1,7 @@
-# 🔦 Spotlight – AI Powered Webinar Streaming & Sales Platform
+# Spotlight – AI Powered Webinar Streaming & Sales Platform 📈
+
+![image](https://github.com/user-attachments/assets/e9fdf6a2-8f20-424a-ae98-72a649d8e6a8)
+
 
 Spotlight is an AI powered webinar streaming platform for marketers and business owners. Users can create webinars, show popup screens to attendees to book a call or buy a product during the livestream, track lead sales and sales progress and more.
 
