@@ -6,7 +6,7 @@ import { useRouter, usePathname } from 'next/navigation'
 import React from 'react'
 import { Zap } from 'lucide-react'
 import PurpleIcon from '../PurpleIcon'
-
+import CreateWebinarButton from '../CreateWebinarButton'
 type Props = { user: User }
 
 //TODO: Stripe Subscription, Assistant,
@@ -33,6 +33,7 @@ const Header = ({ user }: Props) => {
             <PurpleIcon>
                 <Zap className="w-4 h-4 text-white" strokeWidth={2} />
             </PurpleIcon>
+            <CreateWebinarButton/>
         </div>
     </div>
   )
